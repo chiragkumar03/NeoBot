@@ -4,7 +4,6 @@ import './Main.css';
 import { Context } from '../../Context/Context';
 const Main = () => {
   const{onSent,recentPrompt,showResult,loading,resultData,setInput,input}=useContext(Context);
-// hello
   return (
     <div className='main'>
       <div className="nav">
